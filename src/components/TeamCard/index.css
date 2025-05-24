@@ -1,0 +1,40 @@
+.team-logo {
+  width: 50px;
+  align-self: center;
+  margin-right: 10px;
+}
+.list-cont-home {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 48%;
+  height: 110px;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.team-name {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+.li-fjdk {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .list-cont-home {
+    width: 48%;
+  }
+  .team-name {
+    font-size: 25px;
+  }
+  .team-logo {
+    width: 60px;
+  }
+}
